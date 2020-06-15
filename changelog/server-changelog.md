@@ -1,8 +1,12 @@
 # Server Changelog
 
+## 1.1
+
+### 1.1.0 (To be released in 2020/07/15)
+
 ## 1.0
 
-### 1.0.0 (to be released in 2020/06/01)
+### 1.0.0 (2020/06/02)
 
 Important changes and new features:
 
