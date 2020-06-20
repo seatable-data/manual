@@ -26,4 +26,14 @@ port = 6379
 
 ```
 
+## Email notifications configuration
+
+The configuration of email notifications is in the `[EMAIL SENDER]` section of the file `dtable-events.conf`
+
+```
+[EMAIL SENDER]
+enabled = true
+
+```
+
 
