@@ -42,6 +42,9 @@ ENABLE_SIGNUP = False
 # If set to `False`, new users need to be activated by admin in admin panel.
 ACTIVATE_AFTER_REGISTRATION = False
 
+# Whether allow user to delete its account
+ENABLE_DELETE_ACCOUNT = True
+
 # Whether to send email when a system admin adding a new member. Default is `True`.
 SEND_EMAIL_ON_ADDING_SYSTEM_MEMBER = True
 
