@@ -42,6 +42,8 @@ mysql -h$DB_HOST -p$DB_ROOT_PASSWD dtable_db </opt/seatable/seatable-server-late
 
 ```
 
+Since version 1.1.0, the upgrade path change to `/opt/seatable/seatable-server-latest/sql/mysql/upgrade/1.1/dtable.sql`.
+
 ## Start SeaTable server
 
 Now you can start the SeaTable service. Execute the following command in the SeaTable container :

@@ -2,7 +2,20 @@
 
 ## 1.1
 
-### 1.1.0 (To be released in 2020/07/15)
+### 1.1.0 (2020/07/13)
+
+Important changes and new features:
+
+* Formula can use other formula columns
+* Add favorite category to list starred bases
+* Link columns and formula columns can be used in filters and groupbys
+* Forms support conditional fields and required fields
+
+Improvements and fixes:
+
+* Support use multiple numeric columns in a single chart
+* Support importing new data to an existing table
+* Many other UI fixes and improvements
 
 ## 1.0
 
