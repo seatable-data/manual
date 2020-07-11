@@ -6,8 +6,8 @@
 
 Important changes and new features:
 
+* Plugin system are redesigned. Plugins are now installed by system admins and users can choose which plugins to active for their bases. Normal users can not install plugins directly.
 * Formula can use other formula columns
-* Add favorite category to list starred bases
 * Link columns and formula columns can be used in filters and groupbys
 * Forms support conditional fields and required fields
 
@@ -15,6 +15,7 @@ Improvements and fixes:
 
 * Support use multiple numeric columns in a single chart
 * Support importing new data to an existing table
+* Add favorite category to list starred bases
 * Many other UI fixes and improvements
 
 ## 1.0
