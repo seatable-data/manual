@@ -1,11 +1,5 @@
 # DTable Server Config
 
-## private_key
-
-The `private_key` must be the same as the `DTABLE_PRIVATE_KEY` in `dtable_web_settings.py` 
-
-The `dtable_web_service_url` must be the same as the `DTABLE_WEB_SERVICE_URL` in  `dtable_web_settings.py` 
-
 ```
 {
     "host": "db",
@@ -23,3 +17,9 @@ The `dtable_web_service_url` must be the same as the `DTABLE_WEB_SERVICE_URL` in
 ```
 
 The `redis_password` is an empty string.
+
+The `private_key` must be the same as the `DTABLE_PRIVATE_KEY` in `dtable_web_settings.py` 
+
+The `dtable_web_service_url` is used for dtable-server to access dtable-web. It is optional since 1.1.0. If it is not specified, 127.0.0.1:8000 will be used.
+
+
