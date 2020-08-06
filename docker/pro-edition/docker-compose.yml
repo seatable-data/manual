@@ -19,7 +19,7 @@ services:
       - seatable-net
           
   seatable:
-    image: docker.seadrive.org/seafile-dev/seatable-server:0.9.5 # Modify the tag based on the version you are deploying.
+    image: docker.seadrive.org/seafile-dev/seatable-server:1.1.0 # Modify the tag based on the version you are deploying.
     container_name: seatable
     ports:
       - "80:80"
