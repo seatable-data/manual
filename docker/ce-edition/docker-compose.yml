@@ -25,7 +25,7 @@ services:
       - seatable-net
           
   seatable:
-    image: seafileltd/seatable:0.9.7
+    image: seafileltd/seatable:latest
     container_name: seatable
     ports:
       - "80:80"
