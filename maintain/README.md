@@ -1,5 +1,9 @@
 # Administration
 
+### Account
+
+* [Account Management](account.md)
+
 ### Logs
 
 * [The location of log files](logs.md)
@@ -21,7 +25,5 @@ You can run Seafile GC to remove unused files:
 ### Clean database
 
 * [Clean database](clean_database.md)
-
-
 
 
