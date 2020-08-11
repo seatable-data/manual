@@ -11,7 +11,8 @@
   * [Roles and Permissions](config/roles_permissions.md)
 * [Administration](maintain/README.md)
   * [Logs](maintain/logs.md)
-  * [Backup and Recovery](maintain/backup_recovery.md)
+  * [Backup and recovery](maintain/backup_recovery.md)
+  * [Clean database](maintain/clean_database.md)
 * Upgrade SeaTable server
   * [Upgrade manual](./upgrade/upgrade_manual.md)
 * ChangeLog

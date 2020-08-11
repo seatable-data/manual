@@ -1,10 +1,10 @@
-# Clean Database
+# Clean database
 
 ## dtable_db
 
-Since version 1.1.2, we offered command to clear 30 days ago records in dtable_db database.
+Since version 1.2, we offer command to clear records older than 30 days in dtable_db database.
 
-The following tables will be cleaned.
+The following tables will be cleaned:
 
 * activities
 * user_activities
