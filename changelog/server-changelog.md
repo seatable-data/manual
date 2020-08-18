@@ -1,5 +1,28 @@
 # Server Changelog
 
+## 1.2
+
+### 1.2.0 (2020/08/18)
+
+Important changes and new features:
+
+* Calendar is re-implemented as a plugin
+* You can change the color and icon for a base now
+* Performance improvement when there are 40+ columns in a table
+
+Improvements and fixes:
+
+* Allow to duplicate views just like the tables
+* Zip download files in a column
+* Fix notification rules
+* Plugin dialogs now have unique URLs for sharing
+* You can set number format for formula columns that have results of number type
+* Fix UI issues for forms
+* Add rate limit for API calls
+* Fix more bugs when exporting a view as an Excel
+* You can now export/import options for a label column
+* Other UI improvements
+
 ## 1.1
 
 ### 1.1.0 (2020/07/13)
