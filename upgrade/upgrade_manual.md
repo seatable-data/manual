@@ -7,7 +7,7 @@ You can find all versions of SeaTable from [Docker Hub](https://hub.docker.com/r
 Run the following command to get the latest version of Seatable.
 
 ```
-docker pull seafileltd/seatable:{tag}
+docker pull seatable/seatable:{tag}
 
 ```
 
