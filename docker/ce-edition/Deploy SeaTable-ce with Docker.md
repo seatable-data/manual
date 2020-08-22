@@ -20,7 +20,7 @@ apt-get install docker-compose -y
 Pull the SeaTable image:
 
 ```sh
-docker pull seafileltd/seatable:{tag}
+docker pull seatable/seatable:{tag}
 
 ```
 
