@@ -36,4 +36,17 @@ enabled = true
 
 ```
 
+## Notification rules scanner configuration
+
+Notification rules is the feature that users can set notification rules for a base and got notifications when defined criteria meet.
+
+The configuration of notification rules scanner is in the `[NOTIFY-SCANNER]` section of the file `dtable-events.conf`
+
+```
+[NOTIFY-SCANNER]
+enabled = true
+interval = 3600
+
+```
+
 
