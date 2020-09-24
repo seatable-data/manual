@@ -1,5 +1,43 @@
 # Server Changelog
 
+## 1.3
+
+### 1.3.0 (2020/09/23)
+
+Important changes and new features:
+
+* You can write scripts in JavaScript to handling data in a base
+* **Conditional formatting**: On the view control panel, there’s a new button: Color. You can set row colors according to a single select column or your own conditions and rules.
+* **Print function**: Now you can print your SeaTable base or a single row in a much more elegant and compact way.
+* **Auto number column type**: Set up a rule and let SeaTable number this column automatically.
+
+Improvements and fixes:
+
+* Collapse and expand all groupbys with one click
+* Customizable SeaTable docker gunicorn configuration
+* Groups listed in the bases library navigation
+* More view modals for mobile terminal (Grid view and cards view)
+* URLs in long text columns clickable in grid view
+* \[fix] Bug when filtering over formula and link column and when filter condition is OR
+* \[fix] Content of linked fields cannot be copy-pasted
+* \[fix] Copy & paste, and drag & drop compatibility problem under Firefox
+* \[fix] Form note content loss after hiding and unhiding
+* \[fix] Formula column content update problem on the row details page
+* \[fix] Locked table headers become unlocked when restarting server
+* \[fix] Minus before formula result if result is decimal
+* \[fix] Unintended focus switching in form view
+* Date dialog in form with minutes automatically quits after selecting date and minutes
+* Improved descriptions of round, roundup and rounddown formulas
+* Monday will be the first day of a week in the sort/groupby conditions
+* Forms can be exported, imported and copied with a base
+* Form “submit” button changed into spiral after clicking to prevent resubmission
+* A group can only be deleted when there’s no bases in it
+* Remove “Unselect rows”, as clicking outside the selection cancels the selection
+* Font blur problem in Chrome engine browsers under Windows
+* Buttons to switch to previous/next row on the row details popover
+* Functions findMax and findMin
+* Notification when a user is added as a collaborator
+
 ## 1.2
 
 ### 1.2.0 (2020/08/18)
