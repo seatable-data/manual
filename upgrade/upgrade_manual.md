@@ -47,10 +47,10 @@ Tiny version upgrade, like from 1.0.1 to 1.0.2, does not involve database change
 
 ## Start SeaTable server
 
-Now you can start the SeaTable service. Execute the following command in the SeaTable container :
+Now you can start the SeaTable service. Execute the following command in the host server:
 
 ```
-/shared/seatable/scripts/seatable.sh start
+docker exec -d seatable /shared/seatable/scripts/seatable.sh start
 
 ```
 
