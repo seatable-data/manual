@@ -24,7 +24,7 @@ docker pull seatable/seatable:{tag}
 
 ```
 
-You can find all versions of SeaTable from [Docker Hub](https://hub.docker.com/r/seafileltd/seatable/tags).
+You can find all versions of SeaTable from [Docker Hub](https://hub.docker.com/r/seatable/seatable/tags).
 
 ### Download and modify docker-compose.yml
 
