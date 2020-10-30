@@ -26,7 +26,7 @@ The different components of SeaTable community edition are released under differ
 
 * dtable-web: Apache License v2
 * dtable-events: Apache License v2
-* dtable-server: Proprietary License
+* dtable-server: [Proprietary License](dtable-server-license.md)
 * seaf-server: AGPLv3
 
 SeaTabe community edition should not be used to provide SaaS service or as a part of your SaaS service. Other kinds of usage are okay, including
