@@ -1,5 +1,62 @@
 # Server Changelog
 
+## 1.4
+
+### 1.4.0 (2020/11/10)
+
+* [Added] “Help and resources” in the navigation
+* [Added] Allow user to copy a base into the current group
+* [Added] Auto fill and reminding function in form for several previous submissions
+* [Added] Base description (if not empty) is displayed on first time opening of a base
+* [Added] Column related operations to the Python API
+* [Added] Computing indirectly linked records
+* [Added] Customizable sharing permission (API)
+* [Added] Delete current record function on mobile row details page
+* [Added] Delimiter detection by CSV import
+* [Added] Group admin can modify group members’ roles
+* [Added] Help button on the top right corner of the base editor
+* [Added] Illegal symbol replacement by Excel export
+* [Added] Link to user manual in the Help and Help and resources menu
+* [Added] Number of Sorts
+* [Added] Role permission to run Python scripts
+* [Added] Scripts can be created in JavaScript or Python
+* [Added] Scripts import support for Python file
+* [Added] Single select options quotation in the formula
+* [Added] Sort for the collaborator column type
+* [Added] URL column type
+* [Added] Webhook support
+* [Added] Function hour() to calculate time difference in hours
+* [Fixed] Auto number sequence problem when using Shift+Enter to create new rows
+* [Fixed] Conflict between Timeline plug-in and other plug-ins
+* [Fixed] Current cell won’t be updated when a related row has been updated
+* [Fixed] Display problem with vertical scroll bar
+* [Fixed] Feedback wording error when submitting a form in English
+* [Fixed] File unzip problem after downloading all images
+* [Fixed] Formula column and number column format display problem on mobile devices
+* [Fixed] Formula column display problem on row details page
+* [Fixed] Frozen first column ‘shakes’ when scrolling left and right
+* [Fixed] Key combination Ctrl+F triggers browser search instead of base editor search
+* [Fixed] Missing decimal and thousands separator in number and formula column settings on mobile devices
+* [Fixed] month() function problem under European time format
+* [Fixed] No results displayed when adding new numeric columns in statistics
+* [Fixed] Notification triggered by rules not displayed on mobile devices
+* [Fixed] Problem with the focus when a row is changed in a filtered table
+* [Fixed] Row displacement problem when modifiying long text while another record is added/removed
+* [Fixed ]Scroll and select problem with table elements
+* [Fixed] Search field functionality and width problem
+* [Fixed] Spaces removal before and after text when submitting a form entry
+* [Fixed] Removed Limitation of 99 images when uploading via copy & paste
+* [Updated] Changed ‘===’ in the if() formula into ‘=’
+* [Updated] Error handling (e.g. illegal symbol replacement) when exporting to Excel
+* [Updated] Improved cell and grid rendering
+* [Updated] Line break inside a table cell in the long text editor disabled
+* [Updated] Modification notification via email improved
+* [Updated] networkdays(startDate, endDate) function now includes ‘endDate’ in the result
+* [Updated] Newly built Activities
+* [Updated] Real-time display of messages in the row comment window
+* [Updated] Searching and choosing mode of linked records
+* [Updated] UI improvements for the + button in image and file cells
+
 ## 1.3
 
 ### 1.3.0 (2020/09/23)
