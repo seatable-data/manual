@@ -6,7 +6,7 @@ SeaTable comes with two build-in roles `default` and `guest`.
 
 ## Edit build-in roles
 
-If you want to edit the permissions of build-in roles,you can add following lines to `dtable_web_settings.py` with corresponding permissions set to `True`.
+If you want to edit the permissions of build-in roles, you can add following lines to `dtable_web_settings.py` with corresponding permissions set to `True`.
 
 ```python
 ENABLED_ROLE_PERMISSIONS = {
@@ -21,7 +21,7 @@ ENABLED_ROLE_PERMISSIONS = {
         'can_create_common_dataset': True,
         'can_generate_external_link': True,
         'can_run_python_script': True,
-        'can_use_advanced_permissions': False,  # The default is False, set to the True, open table advanced permissions
+        'can_use_advanced_permissions': False,  # The default is False, set to the True to enable advanced permissions, such as view sharing and column permissions
         'snapshot_days': 180
     },
     'guest': {
