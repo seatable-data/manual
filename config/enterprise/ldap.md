@@ -7,7 +7,7 @@ LDAP (Light-weight Directory Access Protocol) is a user information management s
 Users in SeaTable are divided into two categories:
 
 * Users who are stored in the local database. It may be a user created by the administrator, or a user registered by self
-* The user created in SeaTable during LDAP login (or other OAuth login).
+* The user created in SeaTable during LDAP login (or other Single Sign On login).
 
 SeaTable will automatically look up users from internal databases and LDAP. As long as users exist in any source, they can log in.
 
@@ -36,7 +36,7 @@ LDAP_USER_LAST_NAME_ATTR = 'sn'
 # For Chinese name，Reverse the order of first_name and last_name, this is an optional option, default is False
 LDAP_USER_NAME_REVERSE = True
 
-# If LDAP_LOGIN_ATTR is not using a mailbox, this option can be used to specify which attribute to import the user's mailbox address from. The attributes in this option will override the user's email address imported through LOGIN_ATTR. This is an optional option, the default is '', the loggin_attr will be used as the contact email
+# If LDAP_LOGIN_ATTR is not set to 'mail', this option can be used to specify which attribute to import the user's mailbox address from. The attributes in this option will override the user's email address imported through LOGIN_ATTR. This is an optional option, the default is ''. If this option is not set, the LOGIN_ATTR attribute will be used as the contact email
 LDAP_CONTACT_EMAIL_ATTR = 'mail'
 
 # Used to filter the range of users who can log in, such as limited to a certain security group
@@ -51,7 +51,7 @@ The meaning of each configuration option is as follows:
 * LDAP_BASE_DN: In the organizational structure of the LDAP server, the unique name (Distingushed Name, DN for short) of the root node used to query users. All users under this node can access SeaTable.
 * LDAP_ADMIN_DN: The DN of the user used to query the information in the LDAP server. This user should have sufficient authority to access all information under BASE. It is generally recommended to use LDAP/AD administrator.
 * LDAP_ADMIN_PASSWORD: The password of the user corresponding to USER_DN.
-* LDAP_USER_UNIQUE_ID：The unique ID of the user in LDAP, ObjectGUID in AD, EntryUUID attribute should be used for other LDAP servers
+* LDAP_USER_UNIQUE_ID：The unique ID of the user in LDAP. You should use ObjectGUID for AD. EntryUUID attribute should be used for other LDAP servers
 * LDAP_LOGIN_ATTR: Used as the attribute for users to log in to LDAP in SeaTable. If you log in via email, you can use the 'mail' attribute or the 'userPrincipalName'. If you want to log in with a Windows username, you can use the 'sAMAccountName' attribute.
 * LDAP_USER_FIRST_NAME_ATTR：Used to splice the user's nickname
 * LDAP_USER_LAST_NAME_ATTR：Used to splice the user's nickname
