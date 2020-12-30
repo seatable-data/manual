@@ -22,7 +22,7 @@ SeaTable consists of following component
 
 The following picture shows how the different components work together:
 
-<img src="https://docs.seatable.io/lib/46a2101c-2bc5-4456-887a-ec74471be98a/file/images/auto-upload/image-1609214272975.png?raw=1" height="null" width="664.5" />
+<img src="https://docs.seatable.io/lib/46a2101c-2bc5-4456-887a-ec74471be98a/file/images/auto-upload/image-1609214272975.png?raw=1" width="664.5" height="null" />
 
 ## LICENSE
 
@@ -44,7 +44,7 @@ The SeaTable enterprise edition is released under proprietary license.
 
 ## Report issues
 
-Please report issues to <https://github.com/seatable/seatable/issues>
+Please report issues to our forum <https://forum.seatable.io/>
 
 ## More information
 
