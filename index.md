@@ -8,6 +8,7 @@
   * [dtable_web_settings.py](config/dtable_web_settings.md)
   * [dtable-events.conf](config/dtable-events-conf.md)
   * [dtable_server_config](config/dtable_server_config.md)
+  * [integrate-with-seafile](config/integrate-with-seafile.md)
   * [Email Sending](config/sending_email.md)
   * [Enterprise](config/enterprise)
     * [Roles and Permissions](config/enterprise/roles_permissions.md)
