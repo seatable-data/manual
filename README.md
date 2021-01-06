@@ -22,18 +22,33 @@ SeaTable consists of following component
 
 The following picture shows how the different components work together:
 
-<img src="https://docs.seatable.io/lib/46a2101c-2bc5-4456-887a-ec74471be98a/file/images/auto-upload/image-1609214272975.png?raw=1" width="664.5" height="null" />
+<img src="https://docs.seatable.io/lib/46a2101c-2bc5-4456-887a-ec74471be98a/file/images/auto-upload/image-1609914364017.png?raw=1" height="null" width="704" />
+
+Some explanation:
+
+* MariaDB, Memcache, Redis are running in their own docker containers.
+* ccnet-server is currently only used for query users/groups from database, which will be merged into seaf-server.
+* Redis is used for sending messages from dtable-web/dtable-server to dtable-events
+* All the components use Memcache for storing cache and MariaDB for storing permanent information
+* Bases are maintained in dtable-server and periodically saved to file/objects storage for persistent storage.
+* Attachments are saved in file/objects storage
 
 ## LICENSE
 
-The different components of SeaTable community edition are released under different licenses:
+SeaTable has three versions
+
+* Developer edition: for users that want to use SeaTable as database and heavy using APIs and scripts. The benefit of developer edition is no limit on storage, row numbers and API calls.
+* Cloud edition: for users that want to use SeaTable as a collaboration tool. It has limitation for storage, row numbers and API calls.
+* Enterprise edition: almost no limitation for storage, row numbers and API calls and have advanced permissions and user management features. It is meant for large teams to use SeaTable in both way. Users can use it in the cloud or self-hosted.
+
+The different components of SeaTable developer edition are released under different licenses:
 
 * dtable-web: Apache License v2
 * dtable-events: Apache License v2
 * dtable-server: [Proprietary License](dtable-server-license.md)
 * seaf-server: AGPLv3
 
-SeaTabe community edition should not be used to provide SaaS service or as a part of your SaaS service. Other kinds of usage are okay, including
+SeaTabe developer edition should not be used to provide SaaS service or as a part of your SaaS service. Other kinds of usage are okay, including
 
 * Use it internally in your company.
 * Personal or home use.
