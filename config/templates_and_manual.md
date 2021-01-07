@@ -1,6 +1,6 @@
 # Manual, Templates and Plugins Config
 
-## Config of manual and video tutorial
+## Config of manual 
 
 ```
 HELP_LINK = 'https://seatable.io/help/?lang=auto'
@@ -49,5 +49,3 @@ You can either choose downloading our public templates formatted as â€œ.dtableâ€
 ## Config of plugins
 
 You can download plugins from <https://market.seatable.io/plugins/> and upload it to your SeaTable in the admin panel. Note that the Map plugin requires a Google Map developer account to work.
-
-
