@@ -1,9 +1,5 @@
 # SeaTable Pro Edition Changelog
 
-## 0.9
-
-### 0.9.3
-
-* Initial release
+Please check: [https://seatable.io/docs/changelog/version-1-6](https://seatable.io/docs/changelog/version-1-6/)
 
 

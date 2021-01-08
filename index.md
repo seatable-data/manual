@@ -22,7 +22,7 @@
 * Upgrade SeaTable server
   * [Upgrade manual](./upgrade/upgrade_manual.md)
 * ChangeLog
-  * [SeaTable Community Edition](changelog/server-changelog.md)
+  * [SeaTable Developer Edition](changelog/server-changelog.md)
   * [SeaTable Professional Edition](changelog/changelog-for-seatable-professional-server.md)
 * [Roadmap](changelog/roadmap.md)
 * [dtable-server-license](dtable-server-license.md)
