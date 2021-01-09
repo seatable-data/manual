@@ -1,4 +1,4 @@
-# Deploy SeaTable Community Edition with Docker
+# Deploy SeaTable Developer Edition with Docker
 
 ## Getting started
 
