@@ -15,6 +15,8 @@ db_name = seafile_db
 
 ```
 
+Note: MariaDB and MySQL is compatible. In the configuration, we use mysql.
+
 ## Redis configuration
 
 The configuration of redis is in the `[REDIS]` section of the file `dtable-events.conf`
