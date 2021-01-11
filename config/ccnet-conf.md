@@ -9,9 +9,9 @@ SERVICE_URL=http://www.example.com
 
 ```
 
-## Changing MySQL Connection Pool Size
+## Changing MariaDB Connection Pool Size
 
-When you configure ccnet to use MySQL, the default connection pool size is 100, which should be enough for most use cases. You can change this value by adding following options to ccnet.conf:
+When you configure ccnet to use MariaDB, the default connection pool size is 100, which should be enough for most use cases. You can change this value by adding following options to ccnet.conf:
 
 ```
 [Database]

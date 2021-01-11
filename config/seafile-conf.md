@@ -35,6 +35,4 @@ max_connections=100
 
 ```
 
-When you configure seafile server to use MySQL, the default connection pool size is 100, which should be enough for most use cases.
-
-
+When you configure seafile server to use MariaDB, the default connection pool size is 100, which should be enough for most use cases.

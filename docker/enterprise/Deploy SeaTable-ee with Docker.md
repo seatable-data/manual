@@ -38,8 +38,8 @@ mkdir /opt/seatable
 
 Download [docker-compose.yml](https://docs.seatable.io/f/58f1f83e5ac34258806b/?dl=1) sample file to /opt/seatable. Then modify the file according to your environment. The following fields are needed to be modified:
 
-* The password of MySQL root (MYSQL_ROOT_PASSWORD and DB_ROOT_PASSWD)
-* The volume directory of MySQL data (volumes)
+* The password of MariaDB root (MYSQL_ROOT_PASSWORD and DB_ROOT_PASSWD)
+* The volume directory of MariaDB data (volumes)
 * The SeaTable image's tag
 * The volume directory of SeaTable data (volumes)
 * The host name (SEATABLE_SERVER_HOSTNAME)
