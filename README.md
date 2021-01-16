@@ -22,7 +22,7 @@ SeaTable consists of following component
 
 The following picture shows how the different components work together:
 
-<img src="https://docs.seatable.io/lib/46a2101c-2bc5-4456-887a-ec74471be98a/file/images/auto-upload/image-1609914364017.png?raw=1" height="null" width="704" />
+<img src="https://docs.seatable.io/lib/46a2101c-2bc5-4456-887a-ec74471be98a/file/images/auto-upload/image-1609914364017.png?raw=1" width="704" height="null" />
 
 Some explanation:
 
@@ -37,7 +37,7 @@ Some explanation:
 
 SeaTable has three versions
 
-* Developer edition: for users that want to use SeaTable as database and heavy using APIs and scripts. The benefit of developer edition is no limit on storage, row numbers and API calls.
+* Developer edition: for users that want to use SeaTable as database and heavy using APIs and scripts.  The developer edition has no limit on storage, row numbers and API calls, but can support at most 200 concurrent connections to dtable-server.
 * Cloud edition: for users that want to use SeaTable as a collaboration tool. It has limitation for storage, row numbers and API calls.
 * Enterprise edition: almost no limitation for storage, row numbers and API calls and have advanced permissions and user management features. It is meant for large teams to use SeaTable in both way. Users can use it in the cloud or self-hosted.
 
