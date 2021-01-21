@@ -1,7 +1,7 @@
 * [Overview](home.md)
 * Deploy SeaTable with Docker
-  * [Developer Edition](<docker/ce-edition/Deploy SeaTable-ce with Docker.md>)
-  * [Enterprise Edition](<docker/enterprise/Deploy SeaTable-ee with Docker.md>)
+  * [Developer Edition](<docker/Developer-Edition/Deploy SeaTable-DE with Docker.md>)
+  * [Enterprise Edition](<docker/Enterprise-Edition/Deploy SeaTable-EE with Docker.md>)
 * [Server Configuration and Customization](config/README.md)
   * [ccnet.conf](config/ccnet-conf.md)
   * [seafile.conf](config/seafile-conf.md)
