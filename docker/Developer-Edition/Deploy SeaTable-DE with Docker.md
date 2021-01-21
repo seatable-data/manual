@@ -1,42 +1,47 @@
-# Deploy SeaTable Enterprise Edition with Docker
+# Deploy SeaTable Developer Edition (DE) with Docker
 
-## Getting started
+
+## Requirements
+
+SeaTable DE requires 4 cores and 8GB RAM. These resources guarantee good performance for most applications with several hundred concurrent connections.  When the bases become large, more RAM may be needed since SeaTable stores the bases in memory.
+
+
+## Setup
 
 ### Install docker-compose
 
-SeaTable image uses docker-compose. You should first install the docker-compose command.
+SeaTable uses docker-compose. Install the docker-compose package:
 
 ```bash
 # for CentOS
 yum install docker-compose -y
 
-# for Ubuntu
+# Debian/Ubuntu
 apt-get install docker-compose -y
 
 ```
 
-### Download the SeaTable images
+### Download the SeaTable Image
 
-Login our private registry and pull the SeaTable image:
+Pull the SeaTable image:
 
 ```sh
-docker login
-docker pull seatable/seatable-ee:latest
+docker pull seatable/seatable:{tag}
 
 ```
 
-You can contact the sales staff to obtain the username and password.
+You find the current and previous versions of SeaTable DE on [Docker Hub](https://hub.docker.com/r/seatable/seatable/tags).
 
-### Download and modify docker-compose.yml
+### Download and Modify docker-compose.yml
 
-We suggest you to install SeaTable in `/opt/seatable` . Let's make the directory:
+The default directory for SeaTable is `/opt/seatable`. Create the directory:
 
 ```
 mkdir /opt/seatable
 
 ```
+Download the [docker-compose.yml](https://docs.seatable.io/f/6a99ce4147d1411ab873/?dl=1) sample file to `/opt/seatable` and modify the file to fit your environment and settings. The following fields must be modified:
 
-Download [docker-compose.yml](https://docs.seatable.io/f/58f1f83e5ac34258806b/?dl=1) sample file to /opt/seatable. Then modify the file according to your environment. The following fields are needed to be modified:
 
 * The password of MariaDB root (MYSQL_ROOT_PASSWORD and DB_ROOT_PASSWD)
 * The volume directory of MariaDB data (volumes)
@@ -45,7 +50,7 @@ Download [docker-compose.yml](https://docs.seatable.io/f/58f1f83e5ac34258806b/?d
 * The host name (SEATABLE_SERVER_HOSTNAME)
 * The time zone (Optional)
 
-### Initialize database
+### Initialize Database
 
 Initialize database with the following command:
 
@@ -60,7 +65,7 @@ Wait for a while. When you see `This is a idle script (infinite loop) to keep co
 
 Press keyboard `Control + C`  to finish this step.
 
-### Start docker container
+### Start Docker Container
 
 Start SeaTable container with the following command:
 
@@ -71,7 +76,7 @@ docker-compose up -d
 
 **NOTE: You should run the above command in a directory with the **`docker-compose.yml`**.**
 
-### Start SeaTable server
+### Start SeaTable Server
 
 Now you can start the SeaTable service.
 
@@ -87,7 +92,7 @@ Note, the first command use `-d` parameter to mean the service to run in the bac
 
 Next you can access SeaTable via the web side.
 
-## More configuration Options
+## More Configuration Options
 
 ### Deploy the https
 
@@ -166,7 +171,7 @@ docker exec -d seatable /shared/seatable/scripts/seatable.sh restart
 
 ```
 
-## SeaTable directory structure
+## SeaTable Directory Structure
 
 ### Volumes
 
@@ -176,7 +181,7 @@ Placeholder spot for shared volumes. You may elect to store certain persistent i
 * /shared/nginx-logs: This is the directory for Nginx logs.
 * /shared/ssl: This is directory for SSL certificate.
 
-### Find logs
+### Find Logs
 
 The SeaTable logs are under `/shared/seatable/logs` in the docker, or `/Your SeaTable data volume/seatable/logs` in the server that run the docker.
 
