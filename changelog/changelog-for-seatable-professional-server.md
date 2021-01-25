@@ -1,5 +1,5 @@
 # SeaTable Pro Edition Changelog
 
-Please check: [https://seatable.io/docs/changelog/version-1-6](https://seatable.io/docs/changelog/version-1-6/)
+Please check: [https://seatable.io/docs/changelog/](https://seatable.io/docs/changelog/)
 
 

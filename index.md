@@ -17,6 +17,7 @@
     * [LDAP](config/enterprise/ldap.md)
     * [S3](config/enterprise/S3.md)
 * [Administration](maintain/README.md)
+  * [Account](maintain/account.md)
   * [Logs](maintain/logs.md)
   * [Backup and recovery](maintain/backup_recovery.md)
   * [Clean database](maintain/clean_database.md)
