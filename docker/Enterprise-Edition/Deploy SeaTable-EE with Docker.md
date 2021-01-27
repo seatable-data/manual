@@ -1,6 +1,5 @@
 # Deploy SeaTable Enterprise Edition (EE) with Docker
 
-
 ## Requirements
 
 SeaTable EE requires 4 cores and 8GB RAM. These resources guarantee good performance for most applications with several hundred concurrent connections.  When the bases become large, more RAM may be needed since SeaTable stores the bases in memory.
@@ -40,6 +39,7 @@ The default directory for SeaTable is `/opt/seatable`. Create the directory:
 mkdir /opt/seatable
 
 ```
+
 Download the [docker-compose.yml](https://docs.seatable.io/f/58f1f83e5ac34258806b/?dl=1) sample file to `/opt/seatable` and modify the file to fit your environment and settings. The following fields must be modified:
 
 * The password of MariaDB root (MYSQL_ROOT_PASSWORD and DB_ROOT_PASSWD)
@@ -191,3 +191,7 @@ The Nginx logs are under `/shared/nginx-logs`, or `/Your SeaTable data volume/ng
 **If for some reasons, the installation failed, how to start from clean state again?**
 
 Just remove the directory `/opt/seatable` and start again.
+
+**LetsEncrypt SSL certificate has expired.**
+
+If the certificate is not renewed automatically, you can execute the command `/templates/renew_cert.sh` to manually renew the certificate.

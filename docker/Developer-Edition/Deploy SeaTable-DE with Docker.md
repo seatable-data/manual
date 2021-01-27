@@ -1,10 +1,8 @@
 # Deploy SeaTable Developer Edition (DE) with Docker
 
-
 ## Requirements
 
 SeaTable DE requires 4 cores and 8GB RAM. These resources guarantee good performance for most applications with several hundred concurrent connections.  When the bases become large, more RAM may be needed since SeaTable stores the bases in memory.
-
 
 ## Setup
 
@@ -40,8 +38,8 @@ The default directory for SeaTable is `/opt/seatable`. Create the directory:
 mkdir /opt/seatable
 
 ```
-Download the [docker-compose.yml](https://docs.seatable.io/f/6a99ce4147d1411ab873/?dl=1) sample file to `/opt/seatable` and modify the file to fit your environment and settings. The following fields must be modified:
 
+Download the [docker-compose.yml](https://docs.seatable.io/f/6a99ce4147d1411ab873/?dl=1) sample file to `/opt/seatable` and modify the file to fit your environment and settings. The following fields must be modified:
 
 * The password of MariaDB root (MYSQL_ROOT_PASSWORD and DB_ROOT_PASSWD)
 * The volume directory of MariaDB data (volumes)
@@ -192,3 +190,9 @@ The Nginx logs are under `/shared/nginx-logs`, or `/Your SeaTable data volume/ng
 **If for some reasons, the installation failed, how to start from clean state again?**
 
 Just remove the directory `/opt/seatable` and start again.
+
+ you can xxx
+
+**LetsEncrypt SSL certificate has expired.**
+
+If the certificate is not renewed automatically, you can execute the command `/templates/renew_cert.sh` to manually renew the certificate.
