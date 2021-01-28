@@ -193,6 +193,6 @@ Just remove the directory `/opt/seatable` and start again.
 
  you can xxx
 
-**LetsEncrypt SSL certificate has expired.**
+**LetsEncrypt SSL certificate is about to expire.**
 
 If the certificate is not renewed automatically, you can execute the command `/templates/renew_cert.sh` to manually renew the certificate.
