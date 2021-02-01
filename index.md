@@ -15,6 +15,7 @@
   * [Enterprise](config/enterprise)
     * [Roles and Permissions](config/enterprise/roles_permissions.md)
     * [LDAP](config/enterprise/ldap.md)
+    * [OAuth](config/enterprise/oauth.md)
     * [S3](config/enterprise/S3.md)
 * [Administration](maintain/README.md)
   * [Account](maintain/account.md)
