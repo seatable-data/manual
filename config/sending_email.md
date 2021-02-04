@@ -37,12 +37,10 @@ SERVER_EMAIL = EMAIL_HOST_USER
 
 ```
 
-**Note**: If your email service still does not work, you can checkout the log file `logs/seahub.log` to see what may cause the problem. 
+**Note**: If your email service still does not work, you can checkout the log file `logs/dtable_web.log` to see what may cause the problem. 
 
 **Note2**: If you want to use the email service without authentication leaf `EMAIL_HOST_USER` and `EMAIL_HOST_PASSWORD` **blank** (`''`). (But notice that the emails then will be sent without a `From:` address.)
 
 **Note3**: About using SSL connection (using port 465)
 
 Port 587 is being used to establish a TLS connection and port 465 is being used to establish an SSL connection.  Starting from Django 1.8, it supports both.
-
-
